@@ -1,0 +1,5 @@
+# -*- encoding:gbk -*-
+
+s = "Â··É"
+
+print(s)

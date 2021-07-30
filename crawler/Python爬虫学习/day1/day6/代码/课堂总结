@@ -1,0 +1,40 @@
+1.selenium
+1.可视化浏览器
+Chrome
+
+2.无头浏览器
+chromrOptions PhantomJs
+
+2.Ajax
+1.Ajax是一个特殊的请求类型，它叫xhr
+2.x-requested-with: XMLHttpRequest  是标记了此请求是Ajax请求
+基本原理：
+（1）发送请求 新建了XMLHttpRequest对象，这是Javascipt对Ajax最底层的实现
+
+（2）解析内容
+
+（3）渲染内容
+    try: 异常捕捉 判断正常执行
+        except: 如果报错判断结果
+
+# 主要是实现了街拍图片爬取
+1.get_page
+url，request.get()，
+
+cooies = get_cookies('地址')
+headers = {
+    'cookie':cookie,
+
+}
+2.get_cookies
+str = ''
+selenium自动化测试工具 获取请求地址 browser.get(url)
+for i in browers.get_cookies():
+   name = i.get('name')
+   value = i.get('value')
+   str str+name+'='+value+';'
+   return str
+
+3.get_images
+4.save_img
+5.mian

@@ -1,0 +1,28 @@
+from turtle import *
+speed(0)
+fillcolor("yellow")
+for i in range(12):
+    penup()
+    fd(120)
+    pendown()
+    #会画菱形
+    begin_fill()
+    left(30)
+    fd(80)
+    right(60)
+    fd(80)
+    right(120)
+    fd(80)
+    right(60)
+    fd(80)
+    right(150)
+    back(120)
+    right(30)
+pencolor()
+penup()
+fd(120)
+pendown()
+left(90)
+circle(120)
+
+done()

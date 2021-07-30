@@ -1,0 +1,190 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<article class="baidu_pl">
+        <div id="article_content" class="article_content clearfix">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/ck_htmledit_views-b5506197d8.css">
+                <div id="content_views" class="markdown_views prism-atom-one-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <path stroke-linecap="round" d="M5,0 0,2.5 5,5z" id="raphael-marker-block" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                    </svg>
+                    <h5><a id="requests__0"></a>requests 的安装</h5> 
+<p></p>
+<div class="toc">
+ <h3>文章目录</h3>
+ <ul><li><ul><li><ul><li><ul><li><ul><li><a href="#requests__0">requests 的安装</a></li><li><a href="#requests__7">requests 的常用方法</a></li><li><a href="#requests_121">requests进阶</a></li><li><a href="#cookie_123">cookie的使用</a></li><li><a href="#session__162">session 的使用</a></li></ul>
+    </li></ul>
+   </li></ul>
+  </li></ul>
+ </li></ul>
+</div>
+<br> 如果本地 Python 环境没有安装 requests，可以在
+<code>命令提示符</code>窗口输入命令
+<code>pip install requests</code>，安装 requests 模块，如下图所示。
+<p></p> 
+<p><img src="https://img-blog.csdnimg.cn/img_convert/21e80fb7a25e73237bdba0170c1f29bf.png" alt="img"></p> 
+<h5><a id="requests__7"></a>requests 的常用方法</h5> 
+<p>requests 可以用来模拟浏览器请求，下面介绍实现方法。以 GET 请求为例，实现代码如下所示:</p> 
+<pre><code>res = requests.get(url, params=params, headers=headers)
+</code></pre> 
+<p>参数说明：</p> 
+<ul><li>url ：需要抓取的 URL 地址；</li><li>params : 网址带参请求的方法，字典类型；</li><li>headers : 请求头。</li></ul> 
+<p>以百度搜索为例，现在有这样一个网址<code>https://www.baidu.com/s?wd=requests</code>，由主要网址 <code>https://www.baidu.com/s</code> 和参数 <code>wd</code> 组成，需要发起 GET 请求，方法有两种。 方法一：</p> 
+<pre><code>import requests  # 导包
+url = 'https://www.baidu.com/s?wd=requests'
+header = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/"
+                  "537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"}
+response = requests.get(url, headers=header)  #模拟 get 请求
+response.encoding = 'utf-8'  # 指定编码
+print(response.text)  # 打印网页信息文本
+</code></pre> 
+<p>方法二：</p> 
+<pre><code>import requests  # 导包
+url = 'https://www.baidu.com/s'
+header = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/"
+                  "537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"}
+params = {'wd': 'requests'}  # 定义参数
+response = requests.get(url, params=params, headers=header)  #模拟 get 请求
+response.encoding = 'utf-8'  # 指定编码
+print(response.text)  # 打印网页信息文本
+</code></pre> 
+<p>以上两种方法，都可以得到同一个网页的信息。可以看出，与 urllib 相比，requests 代码更加简洁。</p> 
+<p>上述代码还用到了响应对象（response）的属性，比如<code>response.encoding</code>和<code>response.text</code>，响应对象还有一些其它属性：</p> 
+<ul><li>encoding ：响应字符编码 res.encoding = ‘utf-8’；</li><li>text ：字符串，网站源码；</li><li>content ：字节流，字符串网站源码；</li><li>status_code ：HTTP 响应码；</li><li>url ：实际数据的 URL 地址。</li></ul> 
+<p>接下来演示一下 POST 请求，代码同样非常简洁，实现代码如下所示:</p> 
+<pre><code>res = requests.post(url, data=data, headers=headers)
+</code></pre> 
+<p>参数说明：</p> 
+<ul><li>url ：需要抓取的 URL 地址；</li><li>data : 提交常见的 form 表单的方法，字典类型；</li><li>headers : 请求头。</li></ul> 
+<p>以豆瓣登录为例，登录网址为<code>https://www.douban.com/</code>，但这只是登录页面网址。为了找到真正的登录网址，需要打开<code>开发者工具</code>，然后在网页上实际进行登录操作，在<code>Network</code>项目下，选中文件<code>basic</code>，可以得到 post 请求的网址为<code>https://accounts.douban.com/j/mobile/login/basic</code>，如下图所示： <img src="https://img-blog.csdnimg.cn/img_convert/73c06e2ef27a141ec409c1b1776fc4d2.png" alt=","> 如果将上图的页面往下拉，可以看到 data 参数为： <img src="https://img-blog.csdnimg.cn/img_convert/d5e2ae9ecf4166786d78f526b6f1b523.png" alt=","></p> 
+<p>以下代码演示了模拟登录的 POST 请求：</p> 
+<pre><code>import requests  # 导包
+# 模拟请求头
+header = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/"
+                  "537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"}
+# 定义 data 信息
+data = {
+    "name": "账号",
+    "password": "密码",
+}
+url = "https://accounts.douban.com/j/mobile/login/basic"
+response = requests.post(url=url, headers=header, data=data)  # 模拟登录请求
+response.encoding = "utf-8"  # 定义编码
+html_content = response.text
+print(html_content)  # 打印网页信息
+</code></pre> 
+<p>例如：</p> 
+<pre><code>import requests
+
+
+def get_html(url):
+    '''
+    两个参数
+    :param url:统一资源定位符,请求网址
+    :param headers:请求头
+    :return:html
+    '''
+    
+    # ***************** Begin ******************** #
+
+    # 补充请求头
+    headers={ "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/"
+                  "537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"}
+    # get请求网页
+    response=requests.get(url=url,headers=headers)
+    response.encoding='utf-8'
+    html=response.text
+    # 获取网页信息文本
+    
+    # ***************** End ******************** #
+    return html
+</code></pre> 
+<h5><a id="requests_121"></a>requests进阶</h5> 
+<h5><a id="cookie_123"></a>cookie的使用</h5> 
+<p>当你浏览某网站时，Web 服务器会修改修改你电脑上的 Cookies 文件，它是一个非常小的文本文件，可以记录你的用户 ID 、密码、浏览过的网页、停留的时间等信息。 当你再次来到该网站时，网站通过读取 Cookies 文件，得知你的相关信息，从而做出相应的动作，如在页面显示欢迎你的标语，或者让你不用输入 ID、密码就直接登录等等。</p> 
+<p>下面演示如何在 requests 中使用 Cookies， 以百度搜索为例，在<code>开发者工具</code>查看请求头信息如下：</p> 
+<p><img src="https://img-blog.csdnimg.cn/img_convert/def0857aa94f319088bfbb7f2fe866ad.png" alt="img"></p> 
+<p><strong>方法一</strong> 将得到的 Cookies 信息写入请求头，模拟 GET 请求：</p> 
+<pre><code>header = {
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/'
+                  '537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+    "Cookie": "BAIDUID=53B7CC4BFCDC39D2EF625C13D285429D:FG=1; BIDUPSID=53B7CC4BFCDC39D2EF625C13D285429D; "
+              "PSTM=1591665716; BD_UPN=12314753; BDUSS=2N2ajRYZnI2cVlZN1FRemlWNU9FV1lSZFM3SnZBS0dvRW44WFRCUTRWck1mUVpmR"
+              "VFBQUFBJCQAAAAAAAAAAAEAAAAoKJzNMTIyMzM4ODQ1uNW41QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              "AAAAAAAAAAAAMzw3l7M8N5eS; BDORZ=B490B5EBF6F3CD402E515D22BCDA1598; sug=3; sugstore=1; ORIGIN=0; bdime=0; "
+              "H_PS_PSSID=1456_31672_32139_31253_32046_32230_31708_32295_26350_22160; delPer=0; BD_CK_SAM=1; PSINO=6; "
+              "H_PS_645EC=3b86vFCd303Aw0wmqvkcAGpfxU4oXfwYcs6jRd1RnxihTsvhfqaVB%2BIoeBs; BDSVRTM=0"
+}
+response = requests.get(url=url, headers=header)
+</code></pre> 
+<p><strong>方法二</strong>(不推荐) 也可将 cookie 写成字典的形式，传入请求方法中：</p> 
+<pre><code>cookies = {"BAIDUID": "53B7CC4BFCDC39D2EF625C13D285429D:FG=1", "BIDUPSID": "53B7CC4BFCDC39D2EF625C13D285429D",
+           "PSTM": "1591665716", "BD_UPN": "12314753", "sug": "3", "sugstore": "1", "ORIGIN": "0", "bdime": "0",
+           "H_PS_PSSID": "1456_31672_32139_31253_32046_32230_31708_32295_26350_22160", "delPer": "0", " BD_CK_SAM": "1",
+           "PSINO": "6", "H_PS_645EC": "3b86vFCd303Aw0wmqvkcAGpfxU4oXfwYcs6jRd1RnxihTsvhfqaVB%2BIoeBs", "BDSVRTM": "0",
+           "BDUSS": "2N2ajRYZnI2cVlZN1FRemlWNU9FV1lSZFM3SnZBS0dvRW44WFRCUTRWck1mUVpmRVFBQUFBJCQ"
+                    "AAAAAAAAAAAEAAAAoKJzNMTIyMzM4ODQ1uNW41QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzw3l7M8N5eS; BDORZ=B490B5EBF6F3CD402E515D"
+                    "22BCDA1598", 
+           }
+response = requests.get(url=url, headers=header, cookies=cookies)
+</code></pre> 
+<h5><a id="session__162"></a>session 的使用</h5> 
+<p>http 协议是无状态的，也就是每个请求都是独立的。那么登录后的一系列动作，都需要用 cookie 来验证身份是否是登录状态，为了高效的管理会话，保持会话，于是就有了 session 。 session 是一种管理用户状态和信息的机制，与 cookies 的不同的是，session 的数据是保存在服务器端。说的明白点就是 session 相当于一个虚拟的浏览器，在这个浏览器上处于一种保持登录的状态。</p> 
+<p>下面演示如何在 requests 中使用 session。 创建会话的代码如下：</p> 
+<pre><code>sess = requests.session()
+</code></pre> 
+<p>使用会话发出请求提交表单的代码如下：</p> 
+<pre><code>data = {
+    "name": "XXXXX",
+    "password": "XXXXX",
+}
+header = {
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/'
+                  '537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36'
+}
+response = sess.post(url， headers=header, data=data)
+</code></pre> 
+<p>登录成功后，会话会生成 cookie 以及请求头，再次访问网站，直接发出请求即可，代码如下：</p> 
+<pre><code>response_home = sess.get(url=url)
+</code></pre> 
+<p>例如：</p> 
+<pre><code>def get_html(url):
+    '''
+    两个参数
+    :param url:统一资源定位符,请求网址
+    :param headers:请求头
+    :return html 网页的源码
+    :return sess 创建的会话
+    '''
+    
+    # ***************** Begin ******************** #
+    sess = requests.session()
+    data = {
+    "name": "XXXXX",
+    "password": "XXXXX",
+    }
+    header = {
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/'
+                  '537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36'
+    }
+    response = sess.post(url,headers=header,data=data)
+    html = sess.get(url=url).text
+    # ****************** End ********************* #
+    return html, sess
+</code></pre>
+                </div>
+                <link href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/markdown_views-d7a94ec6ab.css" rel="stylesheet">
+                <link href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/style-f1c5feb645.css" rel="stylesheet">
+        </div>
+    </article>
+</body>
+</html>
