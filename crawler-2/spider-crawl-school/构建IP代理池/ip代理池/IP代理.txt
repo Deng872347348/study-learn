@@ -1,0 +1,18 @@
+import requests
+from lxml import etree
+url="https://www.sogou.com/web"
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3863.400 QQBrowser/10.8.4334.400',
+}
+param={
+    'query':'ip'
+}
+#添加代理IP
+proxies={
+    
+}
+response=requests.get(url,params=param,headers=headers )  #携带代理proxies
+html=response.content.decode("utf-8")
+tree=etree.HTML(html)
+ip=tree.xpath("//div[@class='ipvr']/div[@id='ipsearchresult']/strong/text()")
+print(ip)

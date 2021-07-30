@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>明星资料_明星个人档案 - 粉丝网明星库</title>
+<meta name="keywords" content="明星资料,明星个人档案,粉丝网明星库" />
+<meta name="description" content="粉丝网明星库汇聚内地、港台、日韩、欧美各地明星资料，为粉丝们提供全面的明星个人档案信息！" />
+<meta name="mobile-agent" content="format=html5;url=http://m.ifensi.com/star/">  
+<meta name="applicable-device" content="pc">
+<link rel="stylesheet" type="text/css" href="http://statics.ifensi.com/css/mingxing.css"/>
+<link rel="stylesheet" type="text/css" href="http://statics.ifensi.com/css/star_list.css"/>
+<script type="text/javascript" src="http://statics.ifensi.com/js/jquery.js"></script>
+<script type="text/javascript" src="http://statics.ifensi.com/js/top.js"></script>
+<script type="text/javascript" src="http://statics.ifensi.com/js/index.js"></script>
+<script type="text/javascript" src="http://statics.ifensi.com/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+<script type="text/javascript">
+//焦点图切换
+$(function(){
+	$(".slideBox").slide({mainCell:".bd ul",autoPlay:true});	
+})
+</script>
+</head>
+
+<body>
+	<div class="all">
+    	<!--导航-->
+                <div class="head_bar1">
+            <div class="wrapper head clearfix">
+                <div class="head_left">
+                    <ul class="head_list clearfix">
+                        <li><a target="_blank"  href="http://news.ifensi.com/">星闻 </a></li>
+                        <li><a target="_blank"  href="http://photo.ifensi.com/">图吧</a></li>
+                        <li><a target="_blank" class="cur" href="http://star.ifensi.com/">明星库</a></li>
+                        <!-- <li><a target="_blank"  href="http://zhibo.ifensi.com">直播</a></li> -->
+                        <li><a target="_blank"  href="http://top.ifensi.com/">排行榜</a></li>
+                    </ul> 
+                </div>
+                <div class="head_center">
+                    <h1><a target="_blank" href="http://www.ifensi.com/">粉丝网<b class="h_ico"></b></a></h1>
+                </div>
+                <div class="head_right clearfix">
+                    <ul class="head_list clearfix">
+                        <li><a target="_blank"  href="http://movie.ifensi.com/">电影</a></li>
+                        <li><a target="_blank"  href="http://tv.ifensi.com/">电视</a></li>
+                        <li><a target="_blank"  href="http://zongyi.ifensi.com/">综艺</a></li> 
+                    </ul>
+                    <!-- <div class="mem"><a target="_blank" href="http://www.ifensi.com/index.php?m=member&c=index"></a></div> -->
+                    <div class="search">
+                        <a class="search_icon" href="javascript:;"></a>
+                        <form class="head_form clearfix" method="get" id='search' name="search" target="_blank" action="">
+                            <input type="text" name="q" id="q" class="h_txt">
+                            <a class="h_btn" onclick='checksearch()' href='javascript:;'>搜索</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="greey"></div>
+        </div><!--焦点图-->
+<div class="banneri wrapper">
+	    <div id="slideBox" class="slideBox">
+        <div class="bd">
+            <ul>
+									<li>
+					<a target="_blank" href="http://star.ifensi.com/s45/" title="倪妮"><img src="http://v2img.ifensi.com/2016/0207/20160207103756268.jpg" alt="倪妮" width=1200 height=560/></a>
+					</li>
+				 					<li>
+					<a target="_blank" href="http://star.ifensi.com/s442/" title="吴亦凡"><img src="http://v2img.ifensi.com/2016/0206/20160206024244768.jpg" alt="吴亦凡" width=1200 height=560/></a>
+					</li>
+				 					<li>
+					<a target="_blank" href="http://star.ifensi.com/s5871/" title="杨洋"><img src="http://v2img.ifensi.com/2016/0206/20160206034739735.jpg" alt="杨洋" width=1200 height=560/></a>
+					</li>
+				 					<li>
+					<a target="_blank" href="http://star.ifensi.com/s233/" title="鹿晗"><img src="http://v2img.ifensi.com/2016/0206/20160206034507767.jpg" alt="鹿晗" width=1200 height=560/></a>
+					</li>
+				 					<li>
+					<a target="_blank" href="http://star.ifensi.com/s2697/" title="Angelababy"><img src="http://v2img.ifensi.com/2016/0206/20160206035316641.jpg" alt="Angelababy" width=1200 height=560/></a>
+					</li>
+				             </ul>
+        </div>
+        <div class="hd">
+            <ul class="clearfix">
+                					<li ></li>
+									<li ></li>
+									<li ></li>
+									<li ></li>
+									<li ></li>
+				            </ul>
+        </div>
+        <a class="prev" href="javascript:;"></a>
+        <a class="next" href="javascript:;"></a>
+    </div>
+	</div>
+<div class="wrapper">
+	<div class="sptit"><span><a href="http://www.ifensi.com/list9/1-1-1-3409-1-1/">MORE&gt;</a></span><a class="s_title1" href="http://www.ifensi.com/list9/1-1-1-3409-1-1/">内地明星</a></div>
+    <!--内地列表-->
+    <div class="photo_menu">
+		        <div class="photo_p clearfix">
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s42/"><img src="http://img1.osscdn.ifensi.com/2016/0622/20160622072145454.jpg@240w_360h_1e_1c" alt="赵丽颖"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s42/">赵丽颖</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2458/"><img src="http://img1.osscdn.ifensi.com/2016/0823/20160823083337692.jpg@240w_360h_1e_1c" alt="王俊凯"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2458/">王俊凯</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s1/"><img src="http://img1.osscdn.ifensi.com/2016/0425/20160425085951790.jpg@240w_360h_1e_1c" alt="杨幂"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s1/">杨幂</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s442/"><img src="http://v2img.ifensi.com/2016/0308/20160308055636971.jpg" alt="吴亦凡"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s442/">吴亦凡</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s355/"><img src="http://v2img.ifensi.com/2015/0723/20150723052753102.jpg" alt="井柏然"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s355/">井柏然</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2459/"><img src="http://img1.osscdn.ifensi.com/2016/0823/20160823083426832.jpg@240w_360h_1e_1c" alt="易烊千玺"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2459/">易烊千玺</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s233/"><img src="http://img1.osscdn.ifensi.com/2016/0331/20160331025238409.jpg@240w_360h_1e_1c" alt="鹿晗"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s233/">鹿晗</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s51/"><img src="http://img1.osscdn.ifensi.com/2017/0711/20170711101847451.jpg@240w_360h_1e_1c" alt="郑爽"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s51/">郑爽</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s18/"><img src="http://img1.ifensi.com/uploadfiles/zq/b55868c6f103ff1357d66026a1546614.jpg" alt="黄晓明"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s18/">黄晓明</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2809/"><img src="http://v2img.ifensi.com/2016/0222/20160222044641117.jpg" alt="陈伟霆"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2809/">陈伟霆</a></div>
+            </div>
+			        </div>
+		    </div>
+    
+    <div class="sptit"><span><a href="http://www.ifensi.com/list9/1-1-1-3410-1-1/">MORE&gt;</a></span><a class="s_title2" href="http://www.ifensi.com/list9/1-1-1-3410-1-1/">日韩明星</a></div>
+    <!--日韩列表-->
+    <div class="photo_menu">
+                <div class="photo_p clearfix">
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4219/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426032454416.jpg@240w_360h_1e_1c" alt="李敏镐"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4219/">李敏镐</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4321/"><img src="http://v2img.ifensi.com/2016/0302/20160302055917431.jpg" alt="宋仲基"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4321/">宋仲基</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4234/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426032638517.jpg@240w_360h_1e_1c" alt="崔始源"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4234/">崔始源</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4227/"><img src="http://img1.osscdn.ifensi.com/2016/0406/20160406111841796.jpg@240w_360h_1e_1c" alt="朴信惠"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4227/">朴信惠</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4386/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426032752538.jpg@240w_360h_1e_1c" alt="宋智孝"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4386/">宋智孝</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4220/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426033103310.jpg@240w_360h_1e_1c" alt="金秀贤"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4220/">金秀贤</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4256/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426033320972.jpg@240w_360h_1e_1c" alt="宋承宪"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4256/">宋承宪</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4551/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426032932248.jpg@240w_360h_1e_1c" alt="李光洙"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4551/">李光洙</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4921/"><img src="http://img1.osscdn.ifensi.com/2016/0630/20160630052633548.jpg@240w_360h_1e_1c" alt="吴世勋"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4921/">吴世勋</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s4277/"><img src="http://img1.osscdn.ifensi.com/2016/0517/20160517122720145.jpg@240w_360h_1e_1c" alt="赵寅成"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s4277/">赵寅成</a></div>
+            </div>
+			        </div>
+		    </div>
+    
+    <div class="sptit"><span><a href="http://www.ifensi.com/list9/1-1-1-3411-1-1/">MORE&gt;</a></span><a class="s_title3" href="http://www.ifensi.com/list9/1-1-1-3411-1-1/">港台明星</a></div>
+    <!--港台列表-->
+    <div class="photo_menu">
+                <div class="photo_p clearfix">
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2636/"><img src="http://img1.osscdn.ifensi.com/2016/0622/20160622075404352.jpg@240w_360h_1e_1c" alt="周杰伦"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2636/">周杰伦</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2648/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426033845331.jpg@240w_360h_1e_1c" alt="罗志祥"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2648/">罗志祥</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2630/"><img src="http://img1.osscdn.ifensi.com/2016/0622/20160622073438790.jpg@240w_360h_1e_1c" alt="林志玲"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2630/">林志玲</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2696/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426034127800.jpeg@240w_360h_1e_1c" alt="霍建华"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2696/">霍建华</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2755/"><img src="http://v2img.ifensi.com/2015/0723/20150723052951209.jpg" alt="钟汉良"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2755/">钟汉良</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2628/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426033706510.jpg@240w_360h_1e_1c" alt="张柏芝"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2628/">张柏芝</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2768/"><img src="http://img1.osscdn.ifensi.com/2016/0422/20160422043646706.jpg@240w_360h_1e_1c" alt="彭于晏"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2768/">彭于晏</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2638/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426033922293.jpg@240w_360h_1e_1c" alt="蔡依林"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2638/">蔡依林</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2629/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426033737802.jpg@240w_360h_1e_1c" alt="谢霆锋"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2629/">谢霆锋</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2697/"><img src="http://img1.osscdn.ifensi.com/2016/0630/20160630054839256.jpg@240w_360h_1e_1c" alt="杨颖"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2697/">杨颖</a></div>
+            </div>
+			        </div>
+		    </div>
+    
+    <div class="sptit"><span><a href="http://www.ifensi.com/list9/1-1-1-3412-1-1/">MORE&gt;</a></span><a class="s_title4" href="http://www.ifensi.com/list9/1-1-1-3412-1-1/">欧美明星</a></div>
+    <!--欧美列表-->
+    <div class="photo_menu">
+                <div class="photo_p clearfix">
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s46282/"><img src="http://img1.ifensi.com/uploadfiles/zq/24967a69f16044e2ce19e54712be7998.jpg" alt="D·W·格里菲斯"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s46282/">D·W·格里菲斯</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s2720/"><img src="http://img1.ifensi.com/uploadfiles/zq/eb407217ec9f26471485bc0eb086e8be.jpg" alt="李连杰"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s2720/">李连杰</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s46666/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426034720164.jpg@240w_360h_1e_1c" alt="乔纳森·丹尼尔·布朗"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s46666/">乔纳森·丹尼尔·布朗</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s44807/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426035017264.jpg@240w_360h_1e_1c" alt="布兰登·T·杰克逊"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s44807/">布兰登·T·杰克逊</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s46915/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426034440149.jpg@240w_360h_1e_1c" alt="迈克尔·山姆伯格"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s46915/">迈克尔·山姆伯格</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s62918/"><img src="http://img1.osscdn.ifensi.com/2016/0405/20160405104933283.jpg@240w_360h_1e_1c" alt="詹姆斯·克伦威尔"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s62918/">詹姆斯·克伦威尔</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s55245/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426034252606.jpg@240w_360h_1e_1c" alt="迈克尔·培瑟"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s55245/">迈克尔·培瑟</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s53618/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426034749104.jpg@240w_360h_1e_1c" alt="安东尼·德尔·尼格罗"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s53618/">安东尼·德尔·尼格罗</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s56581/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426035140907.jpg@240w_360h_1e_1c" alt="朱莉娅·路易斯-德利法斯"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s56581/">朱莉娅·路易斯-德利法斯</a></div>
+            </div>
+			            <div class="photo_i">
+                <div class="p_one"><a target="_blank" href="http://star.ifensi.com/s53098/"><img src="http://img1.osscdn.ifensi.com/2016/0426/20160426034846535.jpg@240w_360h_1e_1c" alt="马歇尔·威廉姆斯"/></a></div>
+                <div class="p_two"><a target="_blank" href="http://star.ifensi.com/s53098/">马歇尔·威廉姆斯</a></div>
+            </div>
+			        </div>
+		    </div>
+</div>
+<!--星闻-->
+<div class="wrapper clearfix">
+    <!--热门星闻-->
+	    <div class="star_left">
+         <div class="sptit"><span><a href="http://news.ifensi.com/">MORE&gt;</a></span><a class="s_title5" href="http://news.ifensi.com/">热门星闻</a></div>
+				        <div class="mxds oh">
+            <div class="dsi fl"><a href='http://news.ifensi.com/article-14-3555544-1.html'><img src="http://v2img.ifensi.com/2015/0910/20150910102615479.jpg" alt='独家视频快讯：记者采访郭美美辩护律师' width=240 height=160></a></div>
+            <div class="ds ml20 fl" style="width:510px;">
+                <p class="t1 mt20" style="margin-bottom:20px;"><a href='http://news.ifensi.com/article-14-3555544-1.html'>独家视频快讯：记者采访郭美美辩护律师</a></p>
+                <p class="t3" style="font-size:16px; color:#929292;">　　　郭美美开设赌场案辩护律师河南明耀律师事务所的律师樊凤丽律师低调现身，从法院后门进入，对 <a href="http://news.ifensi.com/article-14-3555544-1.html">［查看全文］</a></p>
+                <p class="t4">2015-09-10 10:22:52</p>
+            </div>
+        </div>
+																																								        <div class="mxds nb oh">
+            <div class="dsi fl"><a href='http://news.ifensi.com/article-14-3990971-1.html'><img src="http://img1.osscdn.ifensi.com/2016/0914/20160914102224932.png@240w_160h_1e_1c" alt='换掉鹿晗上杨洋，跑男改名后土的没法看' title='换掉鹿晗上杨洋，跑男改名后土的没法看' width=240 height=160></a></div>
+            <div class="ds ml20 fl" style="width:510px;">
+                <p class="t1 mt20" style="margin-bottom:20px;"><a href='http://news.ifensi.com/article-14-3990971-1.html'>换掉鹿晗上杨洋，跑男改名后土的没法看</a></p>
+                <p class="t3" style="font-size:16px; color:#929292;">《奔跑吧兄弟》已结束了四季，主要阵容一直在变，先是王宝强、包贝尔，后来是鹿晗，随着近日baby怀 <a href="http://news.ifensi.com/article-14-3990971-1.html">［查看全文］</a></p>
+                <p class="t4">2016-09-14 10:21:01</p>
+            </div>
+        </div>
+																														
+        <div class="mt20 bp20 clearfix">
+            <div class="list list1" style="width:352px;">
+																								                <a  href="http://news.ifensi.com/article-14-4149724-1.html">林心如生女“忽必陷”胡歌又上热搜沦陷</a>
+												                <a  href="http://news.ifensi.com/article-14-4134694-1.html">去掉杨幂郑爽，盘点2017年待爆的小花们</a>
+												                <a class="last" href="http://news.ifensi.com/article-14-3990361-1.html">易烊千玺的八块腹肌 此少年有“毒”</a>
+																																            </div>
+            <div class="line" style="height:166px;"></div>
+            <div class="list" style="width:352px;">
+                																																												                <a  href="http://news.ifensi.com/article-17-4145867-1.html">吴世勋身上与鹿晗有关的信息量有点多啊</a>
+												                <a  href="http://news.ifensi.com/article-14-4030700-1.html">任素汐王堃戏中反目戏外姐妹情深</a>
+												                <a class="last" href="http://news.ifensi.com/article-14-4021804-1.html">跟他们比，郑爽杨洋的舌吻简直太小清新</a>
+								            </div>
+        </div>
+    </div>
+        <div class="star_right" style="margin:36px 0;">
+        <!--星闻推荐-->
+        <div class="hot_detail">
+            <div class="hot_title"><h4>星闻推荐</h4></div>
+			            <div class="hot_list">
+								                <div class="hot_i h_cur h1">
+                    <p class="h_one"><a href="http://news.ifensi.com/article-14-3541551-1.html">TFBOYS两周年粉丝见面会如约而至 期待</a></p>
+                    <p class="h_two"><a href="http://news.ifensi.com/article-14-3541551-1.html"><img src="http://v2img.ifensi.com/2015/0815/20150815014133345.jpg" alt="TFBOYS两周年粉丝见面会如约而至 期待你们的橙色海洋" width="310" height="229" /></a></p>
+                </div>
+																																																																                <div class="hot_i ">
+                    <p class="h_one"><a href="http://news.ifensi.com/article-14-3896856-1.html">TFBOYS三周年演唱会将首唱新歌在线直播</a></p>
+                    <p class="h_two"><a href="http://news.ifensi.com/article-14-3896856-1.html"><img src="http://img1.osscdn.ifensi.com/2016/0706/20160706053846670.jpg@310w_229h_1e_1c" alt="TFBOYS三周年演唱会将首唱新歌在线直播" width="310" height="229" /></a></p>
+                </div>
+												                <div class="hot_i ">
+                    <p class="h_one"><a href="http://news.ifensi.com/article-14-3909300-1.html">好暖！王俊凯被粉丝表白送情书紧握手中</a></p>
+                    <p class="h_two"><a href="http://news.ifensi.com/article-14-3909300-1.html"><img src="http://img1.osscdn.ifensi.com/2016/0715/20160715115228300.png@310w_229h_1e_1c" alt="好暖！王俊凯被粉丝表白送情书紧握手中" width="310" height="229" /></a></p>
+                </div>
+												                <div class="hot_i ">
+                    <p class="h_one"><a href="http://news.ifensi.com/article-14-3534283-1.html">TFBOYS王源吓坏本宝宝了表情盘点</a></p>
+                    <p class="h_two"><a href="http://news.ifensi.com/article-14-3534283-1.html"><img src="http://v2img.ifensi.com/2015/0724/20150724083911373.jpg" alt="TFBOYS王源吓坏本宝宝了表情盘点" width="310" height="229" /></a></p>
+                </div>
+												                <div class="hot_i ">
+                    <p class="h_one"><a href="http://news.ifensi.com/article-14-3533408-1.html">TFBOYS易烊千玺变脸比翻书还快</a></p>
+                    <p class="h_two"><a href="http://news.ifensi.com/article-14-3533408-1.html"><img src="http://v2img.ifensi.com/2015/0718/20150718112721715.jpg" alt="TFBOYS易烊千玺变脸比翻书还快" width="310" height="229" /></a></p>
+                </div>
+												                <div class="hot_i h_last">
+                    <p class="h_one"><a href="http://news.ifensi.com/article-14-3541853-1.html">TFBOYS两周年粉丝见面会 见证易烊千玺</a></p>
+                    <p class="h_two"><a href="http://news.ifensi.com/article-14-3541853-1.html"><img src="http://v2img.ifensi.com/2015/0816/20150816104049926.jpg" alt="TFBOYS两周年粉丝见面会 见证易烊千玺成长点滴" width="310" height="229" /></a></p>
+                </div>
+								            </div>
+			        </div>
+		
+    </div> 
+    </div>
+	<!--底部-->
+	        <div class="wrapper footer">
+        	<div class="foot1 clearfix">
+            	<div class="foot_left">
+                	<!-- <a target="_blank" href="#2"><img src="http://statics.ifensi.com/images/code.png" alt="" width="147" height="147" /></a> -->
+                	<a target="_blank" href="JavaScript:;">&nbsp;<img src="http://img1.oss.ifensi.com/2016/0913/20160913050502588.jpg" /><br /></a>
+                    <p class="zai"><a target="_blank" href="JavaScript:;">扫描关注<span>粉丝网</span>微信公众号</a></p>
+                </div>
+                <div class="foot_center">
+                	<!-- <a target="_blank" href="#2"><img src="http://statics.ifensi.com/images/code.png" alt="" width="147" height="147" /></a> -->
+                	<a target="_blank" href="http://weibo.com/ifensifansfans"><img alt="" src="http://v2img.ifensi.com/2015/1207/20151207121610205.jpg" style="width: 147px; height: 147px;" /></a>
+                    <p class="zai"><a target="_blank" href="http://weibo.com/ifensifansfans">点击关注<span>粉丝网</span></a>官方微博</p>
+                </div> 
+                <div class="foot_right">
+                	<ul class="foot_list1">
+                    	<li><a target="_blank" href="http://www.ifensi.com/public-32-3532646.html">公司简介</a></li>
+                        <li><a target="_blank" href="http://www.ifensi.com/public-32-3532635.html">服务条款</a></li>
+                        <li><a target="_blank" href="http://www.ifensi.com/public-32-3532639.html">联系方式</a></li>
+                        <li><a target="_blank" href="http://www.ifensi.com/public-32-3532638.html">人才招聘</a></li>
+                        <li><a target="_blank" href="http://www.ifensi.com/public-32-3532640.html">友情链接</a></li>
+                        <li><a target="_blank" href="http://www.ifensi.com/public-32-3532642.html">大数据平台</a></li>
+                        <li><a target="_blank" href="http://www.ifensi.com/public-32-3532641.html">我要投稿</a></li>
+						<li><a target="_blank" href="http://www.ifensi.com/nav/navlist/">全站导航</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot2">
+            	<div class="foot_list2">
+                	<span>友情链接：</span>
+                    										<a target="_blank" title="粉丝互动" href="http://www.fensihudong.com">粉丝互动</a>|
+										<a target="_blank" title="中国娱乐网." href="http://news.yule.com.cn">中国娱乐网.</a>|
+										                </div>
+                <p class="foot_p">Copyright© 2005-2016 iFensi.Com . All rights reserved.<br />
+                    北京粉丝时代网络科技有限公司版权所有<br /> 
+                    京ICP备15001512号 <a href="http://www.ifensi.com/public-32-4089101.html">京ICP证150600号</a> 京公网安备11010502027023　京网文[2012]0705-232号<br /> 
+                    电信业务审批[2005]字第439号
+                </p>
+            </div>
+        </div>
+        <!--返回顶部-->
+       <div class="foot_btn">
+<a class="top_btn" href="javascript:;"></a>
+        </div>
+    </div>
+    <div style="display:none">
+	<!-- 百度统计 -->
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?4bc8e4e13709285e25853ccc0b6d5106";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+	<!-- cnzz统计 -->
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255304217'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/q_stat.php%3Fid%3D1255304217' type='text/javascript'%3E%3C/script%3E"));</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-65209846-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+    </div>
+</body>
+</html>

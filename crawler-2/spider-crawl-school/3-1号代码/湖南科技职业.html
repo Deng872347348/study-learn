@@ -1,0 +1,648 @@
+
+<!doctype html>
+<html lang="zh-cn">
+<head>
+<meta charset=utf-8 />
+<title>湖南科技职业学院</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="湖南科技职业学院,职业学院,湖南职业学院,湖南高职学院,高职学校,长沙的大学" />
+<meta name="description" content="湖南科技职业学院官方网站" />
+<link rel="stylesheet" type="text/css" href="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/common.css" />
+<link rel="stylesheet" type="text/css" href="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/header.css" />
+<link rel="stylesheet" type="text/css" href="http://www.hnkjxy.net.cn/skin/label/label.css" />
+<script type="text/javascript" src="http://www.hnkjxy.net.cn/js/config.js"></script>
+<script type="text/javascript" src="http://www.hnkjxy.net.cn/js/util.js"></script>
+<script type="text/javascript" src="http://www.hnkjxy.net.cn/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="http://www.hnkjxy.net.cn/js/lang/core/zh-cn.js"></script>
+<script type="text/javascript" src="http://www.hnkjxy.net.cn/js/lang/cms/zh-cn.js"></script>
+<script type="text/javascript">
+P8CONFIG.RESOURCE = 'http://www.hnkjxy.net.cn';
+var SYSTEM = 'cms',
+MODULE = 'item',
+ACTION = 'search',
+LABEL_URL = 'http://www.hnkjxy.net.cn/index.php/cms/item-search?keyword=%e6%a0%a1%e9%95%bf&keyword=%e6%a0%a1%e9%95%bf',
+$this_router = P8CONFIG.URI[SYSTEM][MODULE].controller,
+$this_url = $this_router +'-'+ ACTION,
+SKIN = 'http://www.hnkjxy.net.cn/skin/hnkj/cms/',
+TEMPLATE = 'hnkj';
+mobile_status= '1',
+mobile_auto_jump='1',
+mobile_url = 'http://www.hnkjxy.net.cn/m';
+if(mobile_status=='1' && SYSTEM!='sites'){
+if(browser.versions.android || browser.versions.iPhone || browser.versions.iPad){
+if(mobile_auto_jump=='1' && mobile_url!=P8CONFIG.RESOURCE){
+var this_url = location.href,_pul=P8CONFIG.RESOURCE;
+if(this_url.indexOf(mobile_url)==-1 && this_url.indexOf('s.php')==-1 && this_url.indexOf('u.php')==-1 && this_url.indexOf('admin.php')==-1 && SYSTEM!='sites'){
+if(this_url.indexOf(P8CONFIG.RESOURCE+'/html')!=-1)_pul+='/html';
+this_url = this_url.replace(_pul, mobile_url);
+location.href = this_url;
+}
+}
+}
+}document.domain = 'hnkjxy.net.cn';document.base_domain = 'hnkjxy.net.cn';
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+var qcloud={};
+$('[_t_nav]').hover(function(){
+var _nav = $(this).attr('_t_nav');
+clearTimeout( qcloud[ _nav + '_timer' ] );
+qcloud[ _nav + '_timer' ] = setTimeout(function(){
+$('[_t_nav]').each(function(){
+$(this)[ _nav == $(this).attr('_t_nav') ? 'addClass':'removeClass' ]('nav-up-selected');
+});
+$('#'+_nav).stop(true,true).slideDown(200);
+}, 150);
+},function(){
+var _nav = $(this).attr('_t_nav');
+clearTimeout( qcloud[ _nav + '_timer' ] );
+qcloud[ _nav + '_timer' ] = setTimeout(function(){
+$(this)[ _nav == $(this).attr('_t_nav') ? 'addClass':'removeClass' ]('nav-up-selected');
+$('#'+_nav).stop(true,true).slideUp(200);
+}, 150);
+});
+});
+</script>
+</head>
+<body>
+<div class="header">
+<div class="headbar">
+<div class="logo">
+<a href="http://www.hnkjxy.net.cn/index.php/cms"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/logo.png" /></a>
+</div>
+<div class="headinfo">
+<div class="headlogin" id="header_t">
+<span id="header_login"><script type="text/javascript" src="http://www.hnkjxy.net.cn/u.php/member-login?style=com&id=header_login"></script></span>
+</div>
+<div class="searchform">
+<form action="http://www.hnkjxy.net.cn/index.php/cms/item-search" target="_blank" method="get" name="form1" id="form1">
+<input type="text" value="请输入关键字" onfocus="javascript:if(this.value='请输入关键字'){this.value='';}" class="keyword" id="keyword" name="keyword"> 
+<input type="submit" class="submitbtn" value="" id="button" name="button">
+</form>
+</div>
+</div>
+</div>
+<div class="head-v3">
+<div class="navigation-up">
+<div class="navigation-inner">
+<div class="navigation-v3">
+<ul>
+<li class="nav-up-selected" _t_nav="">
+<a href="http://www.hnkjxy.net.cn" class="home">首&nbsp;&nbsp;页</a>
+</li>
+<li class="" _t_nav="tab1">
+<a href="http://www.hnkjxy.net.cn/html/781/">学校概况</a>
+</li>
+<li class="" _t_nav="tab2">
+<a href="http://www.hnkjxy.net.cn/html/1/">新闻资讯</a>
+</li>
+<li class="" _t_nav="tab3">
+<a href="http://www.hnkjxy.net.cn/html/1301/">组织机构</a>
+</li>
+<li class="" _t_nav="tab4">
+<a href="http://www.hnkjxy.net.cn/html/1316/">院系设置</a>
+</li>
+<li class="" _t_nav="tab5">
+<a href="http://www.hnkjxy.net.cn/html/1317/">教学科研</a>
+</li>
+<li class="" _t_nav="tab6">
+<a href="http://www.hnkjxy.net.cn/html/1318/">招生就业</a>
+</li>
+<li class="" _t_nav="tab7">
+<a href="http://www.hnkjxy.net.cn/html/1319/">学生工作</a>
+</li>
+<li class="" _t_nav="tab8">
+<a href="http://www.hnkjxy.net.cn/html/1328/"target="_blank">合作交流</a>
+</li>
+<li class="" _t_nav="tab9">
+<a href="http://www.hnkjxy.net.cn/html/1306/">信息服务</a>
+</li>		          	
+</ul>
+</div>
+</div>
+</div>
+<div class="navigation-down">
+<div id="tab1" class="nav-down-menu menu-3 menu-1 " style="display: none;" _t_nav="tab1">
+<div class="navigation-down-inner">
+<div class="xiala">
+<div class="photo"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/pic01.jpg" /></div>
+<div class="sublist">
+<ul>
+<li><a href="http://www.hnkjxy.net.cn/html/781/">学校简介</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/780/">现任领导</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/779/">历史沿革</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1333/">领导关怀</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/777/">校园风光</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1334/">学校标识</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1338/">校园视频</a></li>							
+</ul>
+</div>
+<div class="gaikuang">
+<p>湖南科技职业学院由湖南省教育厅主管，湖南中华职业教育社主办，是湖南省人民政府与中华职业教育社共建的公办高等职业学院，具有60年办学历史。学校秉承“至诚至公、精业乐业”的校训，坚持“质量立校、人才强校、开放办校、创新兴校”的办学理念，培养了大批高素质技术技能人才，取得了多项科技创新与社会服务成果。学校是国家示范性骨干高职院校、湖南省示范性高职院校和湖南省唯一获批国家示范性软件职业技术学院的高等院校，2016年学校入围湖南省卓越高职院校建设单位。</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tab2" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="tab2">
+<div class="navigation-down-inner">
+<div class="xiala" >
+<div class="photo"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/pic02.jpg" /></div>
+<div class="sublist">
+<ul>
+<li><a href="http://www.hnkjxy.net.cn/html/34/">科院要闻</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1335/">校园动态</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/809/">通知公告</a></li>
+<li><a href="http://xctzb.hnkjxy.net.cn/">新闻中心</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/128/">媒体聚焦</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1330/">领导讲话</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1331/">师生风采</a></li>
+<li><a href="http://hnkjxy.cuepa.cn/">电子校报</a></li>
+</ul>
+</div>
+<div class="gaikuang clearfix">
+<ul>
+<li>
+<div class="pic"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/weixin.png" /></div>
+<div class="text">官方微信公众号</div>
+</li>
+<li style="margin:0 50px;">
+<div class="pic"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/xiaobao.png" /></div>
+<div class="text">电子校报</div>
+</li>
+<li>
+<div class="pic"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/weibo.png" /></div>
+<div class="text">官方微博</div>
+</li>
+<ul>
+</div>
+</div> 
+</div>
+</div>
+<div id="tab3" class="nav-down-menu menu-3 menu-1 " style="display: none;" _t_nav="tab3">
+<div class="navigation-down-inner">
+<div class="xiala">
+<div class="photo"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/pic03.jpg" /></div>
+<div class="sublist">
+<ul>
+<li><a href="http://www.hnkjxy.net.cn/html/1303/" target="_blank">党务部门</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1304/" target="_blank">行政部门</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1305/" target="_blank">教学教辅部门</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1336/" target="_blank">二级党组织</a></li>
+<li><a href="http://www.hnkjxy.net.cn/html/1337/" target="_blank">群团组织</a></li>
+</ul>
+</div>
+<div class="gaikuang">
+<p>学校现有教职工691名，其中专任教师458名，专任教师中教授29名，副教授、高级工程师、高级工艺美术师等190名，全国模范教师1名，省级专业带头人8名，省级学科带头人1名，省级青年骨干教师21名。有软件技术、室内艺术设计、数控技术、视觉传播设计与制作、高分子材料加工技术5个省级专业教学团队。</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tab4" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="tab4">
+<div class="navigation-down-inner">
+<div class="xiala">
+<div class="photo"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/pic04.jpg" /></div>
+<div class="sublist2">
+<ul>
+<li><a href="http://soft.hnkjxy.net.cn/" target="_blank">软件学院</a></li>
+<li><a href="http://rgznxy.hnkjxy.net.cn/" target="_blank">人工智能学院</a></li>						
+<li><a href="http://art.hnkjxy.net.cn/" target="_blank">艺术设计学院（湘瓷学院）</a></li>
+<li><a href="http://jdgcxy.hnkjxy.net.cn/" target="_blank">智能装备技术学院</a></li>
+<li><a href="http://sxy.hnkjxy.net.cn/" target="_blank">商学院</a></li>
+<li><a href="http://yxy.hnkjxy.net.cn/" target="_blank">药学院</a></li>
+<li><a href="http://vienna.hnkjxy.net.cn/" target="_blank">人文与音乐学院</a></li>
+</ul>
+</div>
+<div class="gaikuang">
+<p>学校立足湖南，对接轻工产业和战略性新兴产业，坚持学历教育和社会培训并举，面向全国22个省（市、区）招生，现有在校生12000多人。设有软件学院、人工智能学院、艺术设计学院（湘瓷学院）、智能装备技术学院、商学院、药学院、人文与音乐学院7个二级学院，形成了以轻工信息技术、轻工设计艺术、轻工智能装备技术3个特色专业群为重点，以轻工商贸服务、生物医药2个专业群为支撑的优势明显的专业体系。</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tab5" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="tab5">
+<div class="navigation-down-inner">
+<div class="xiala">
+<div class="photo"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/pic05.jpg" /></div>
+<div class="sublist2">
+<ul>
+<li><a href="http://zzrsc.hnkjxy.net.cn/index.php/item-list-category-10716.html" target="_blank">师资队伍</a></li>
+<li><a href="http://edu.hnkjxy.net.cn/" target="_blank">教学管理</a></li>
+<li><a href="http://dds.hnkjxy.net.cn/" target="_blank">质量诊改与教育督导室</a></li>
+<li><a href="http://cxy.hnkjxy.net.cn/" target="_blank">科学研究</a></li>
+</ul>
+</div>
+<div class="gaikuang">
+<p>近年来，学校教学科研成果数量质量在全省高职院校中处于前列。学校教师共承担国家级和省部级立项课题260余项，横向应用课题150余项，获得专利90项；获国家级教学成果二等奖1项，省级教学成果一等奖3项、二等奖3项、三等奖8项，省哲学社会科学成果二等奖1项，省级科技成果三等奖2项，通过省社会科学成果鉴定2项；教师公开发表论文2500余篇，其中被SCI、CSCD、EI收录67篇；出版专著73部，教材376部。</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tab6" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="tab6">
+<div class="navigation-down-inner">
+<div class="xiala">
+<div class="photo"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/pic06.jpg" /></div>
+<div class="sublist" style="width:240px;padding-left:100px;">
+<ul>
+<li><a href="http://zsb.hnkjxy.net.cn/" target="_blank">招生信息</a></li>
+<li><a href="http://jyzdc.hnkjxy.net.cn/" target="_blank">就业信息</a></li>	                        
+</ul>
+</div>
+<div class="gaikuang">
+<p>学校招生就业两旺，录取新生的平均报到率和毕业生就业率均在90%以上，多次被评为湖南省招生与就业工作先进单位。</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tab7" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="tab7">
+<div class="navigation-down-inner">
+<div class="xiala">
+<div class="photo"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/pic07.jpg" /></div>
+<div class="sublist">
+<ul>
+<li><a href="http://xsgzc.hnkjxy.net.cn/" target="_blank">学生动态</a></li>
+<li><a href="http://tw.hnkjxy.net.cn/" target="_blank">社团动态</a></li>
+<li><a href="http://www.yiban.cn/school/index/id/15080060" target="_blank">易班动态</a></li>
+<li><a href="http://xinli.hnkjxy.net.cn/" target="_blank">心理咨询</a></li>
+</ul>
+</div>
+<div class="gaikuang">
+<p>学校先后荣获中国软件产业发展推动机构、全国黄炎培职业教育优秀学校、全国高职高专科研工作先进单位、湖南省黄炎培职业教育优秀学校、湖南省文明单位、湖南省普通高校毕业生就业一把手工程优秀单位等荣誉称号。</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tab8" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="tab8">
+<div class="navigation-down-inner">
+<div class="xiala">
+<div class="photo"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/pic08.jpg" /></div>
+<div class="sublist" style="width:240px;padding-left:100px;">
+<ul>
+<li><a href="http://xqhzbgs.hnkjxy.net.cn/" target="_blank">校企合作</a>
+<li><a href="http://www.hnkjxy.net.cn/s.php/bumen1/" target="_blank">国际交流</a>
+</ul>
+</div>
+<div class="gaikuang">
+<p>学校坚持开放办学，积极开展国际合作，先后与英国安格利亚鲁斯金大学等多个国家和地区的十多所大学合作交流，组织100多名教师赴美国、加拿大、法国、德国、印度、新加坡、日本、泰国、台湾等境外院校进修、培训，60多名毕业生赴英国、法国、印度、爱尔兰、泰国等与我校合作的高校留学深造</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tab9" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="tab9">
+<div class="navigation-down-inner">
+<div class="xiala">
+<div class="photo"><img src="http://www.hnkjxy.net.cn/skin/hnkj/cms/../core/header/pic09.jpg" /></div>
+<div class="sublist">
+<ul>
+<li><a href="http://hnkjxy.cuepa.cn/" target="_blank">电子校报</a>
+<li><a href="http://www.dx720.com/hunan/hnkjxy/" target="_blank">全景校园</a>
+<li><a href="http://xyh.hnkjxy.net.cn/" target="_blank">校友总会</a>
+<li><a href="http://tsg.hnkjxy.net.cn/" target="_blank">图书资源</a>
+<li><a href="http://xxjszx.hnkjxy.net.cn/" target="_blank">网络服务</a>
+<li><a href="http://hqc.hnkjxy.net.cn/" target="_blank">后勤服务</a>
+<li><a href="http://www.hnkjxy.net.cn/html/1307/" target="_blank">学校校历</a>
+<li><a href="http://www.hnkjxy.net.cn/html/1308/" target="_blank">办公电话</a>
+</ul>
+</div>
+<div class="gaikuang">
+<p>学校正在凝心聚力，加快推进校内综合改革和内涵式发展，朝着湖南领先、国内一流、具有国际影响的卓越一流高等职业学院的目标奋进。</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+var USERNAME = get_username();
+$(document).ready(function(){
+//**show_edit**//					   
+init_labelshows('header_t');
+})
+</script>
+<div class="wrapfull">
+<link rel="stylesheet" type="text/css" href="http://www.hnkjxy.net.cn/skin/hnkj/cms/../cms/search/style.css" />
+<div class="container">
+<div class="search_outbox">
+<div class="search_left">	
+<div class="searchyear">按年份搜索</div>
+<div class="searchdate">
+<dl class="opt">
+<dd class="dd-selected">全部时间</dd>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2021"><dd class="dd-no-selected">2021年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2020"><dd class="dd-no-selected">2020年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2019"><dd class="dd-no-selected">2019年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2018"><dd class="dd-no-selected">2018年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2017"><dd class="dd-no-selected">2017年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2016"><dd class="dd-no-selected">2016年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2015"><dd class="dd-no-selected">2015年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2014"><dd class="dd-no-selected">2014年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2013"><dd class="dd-no-selected">2013年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2012"><dd class="dd-no-selected">2012年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2011"><dd class="dd-no-selected">2011年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2010"><dd class="dd-no-selected">2010年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2009"><dd class="dd-no-selected">2009年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2008"><dd class="dd-no-selected">2008年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2007"><dd class="dd-no-selected">2007年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2006"><dd class="dd-no-selected">2006年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2005"><dd class="dd-no-selected">2005年</dd></a>
+<a class="a-no-selected" href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=&search_type=0&model=&year=2004"><dd class="dd-no-selected">2004年</dd></a>
+</dl>	
+</div>
+</div>
+<div class="search_right">
+<div class="searchbox">
+<form name="form1" action="" method="get">
+<div class="search_buttom">
+<div class="forminput">
+搜索内容：				
+<input name="search_type" type="radio" value="0" checked="checked" /> 标题+内容
+<input name="search_type" type="radio" value="1"  /> 标题
+<input name="search_type" type="radio" value="2"  /> 内容
+<input name="search_type" type="radio" value="3"  /> 作者
+<input name="search_type" type="radio" value="4"  /> 添加人
+</div>
+<div class="forminput">关键字：<input name="word" type="text" class="search_input" value="校长" /></div>
+<div class="forminput">
+模型：
+<select name="model">
+<option value="" selected="selected">不限模型</option>
+<option value="article" >文章内容</option>
+<option value="photo" >图片内容</option>
+<option value="govopen" >信息公开</option>
+<option value="paper" >数字报刊</option>
+<option value="video" >视频内容</option>
+<option value="down" >下载内容</option>
+<option value="lingdao" >领导人物</option>
+</select>
+时间：<input name="starttime" value="" type="text" size="10"/> - <input name="endtime" value="" type="text" size="10"/>
+</div>
+<div class="formsub"><input type="submit" class="search_bottom" value="搜索"/></div>
+</div>
+<div class="clear"></div>			
+</form>
+</div>
+<div class="search_content">
+<ul>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-03-01/content-7692.html" target="_blank" class="item_title">学校领导开展2021年春季开学第一课巡查</a>  (2021-03-01)
+</div>
+<div class="item_summary">
+3月1日，随着熟悉的上课铃声响起，学校迎来了2021年春季“开学第一课”。党委书记李三福、校长戚人杰带队分别深入暮云、雨花两校区开展开学第一课的巡查工作。 上午8:00，李三福一行在暮云校区开展巡查。先后查看了暮云校区食堂、教学楼和有关部门，深入课堂对课程教学
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-03-01/content-7692.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2021-03-01/content-7692.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-02-08/content-7683.html" target="_blank" class="item_title">学校领导开展节前走访慰问活动</a>  (2021-02-08)
+</div>
+<div class="item_summary">
+寒冬送暖，腊月传情。在新春佳节到来之际，学校党委书记李三福、校长戚人杰、党委副书记唐文，校领导黎晓明、卢文涛，周亮、程志群、邹海、谭见君等带队分别走访慰问了退休老领导、生活困难党员、老党员、老干部、援疆教师等，向大家致以节日的问候和新春祝福。在走访慰
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-02-08/content-7683.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2021-02-08/content-7683.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-01-27/content-7677.html" target="_blank" class="item_title">学校召开疫情防控专题会议</a>  (2021-01-27)
+</div>
+<div class="item_summary">
+1月25日上午，副校长、学校新冠肺炎疫情防控领导小组第一副组长谭见君在雨花校区第二会议室主持召开专题会议，研究部署冬春季学校新冠肺炎疫情防控工作。全体中层正职干部参加会议。会上，后勤处处长、学校新冠肺炎疫情防控领导小组办公室主任孙义军传达了省教育厅《关
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-01-27/content-7677.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2021-01-27/content-7677.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-01-07/content-7663.html" target="_blank" class="item_title">学校举行党总支书记抓基层党建现场述职评议会议</a>  (2021-01-07)
+</div>
+<div class="item_summary">
+1月7日上午，学校在雨花校区多功能报告厅举行2020年度党总支书记抓基层党建现场述职评议会议。党委书记李三福出席会议并讲话，学校党政班子成员、各党总支书记、党支部书记、二级学院院长及师生党员代表、民主党派人士代表共95人参加会议。党校副校长、组织部副部长宋剑
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-01-07/content-7663.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2021-01-07/content-7663.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-01-04/content-7658.html" target="_blank" class="item_title">校长戚人杰给艺术设计学院党总支全体党员上党课</a>  (2021-01-04)
+</div>
+<div class="item_summary">
+习近平总书记强调：“中华民族历史上经历过很多磨难，但从来没有被压垮过，而是愈挫愈勇，不断在磨难中成长、从磨难中奋起。”在抗击疫情斗争中，伟大民族精神激励中国人民无惧磨难、排除万难，为进一步学习中华民族精神，2020年12月31日下午，校长戚人杰参加艺术设计
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2021-01-04/content-7658.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2021-01-04/content-7658.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-14/content-7627.html" target="_blank" class="item_title">我校赴醴陵佛年学校开展爱心帮扶活动</a>  (2020-12-14)
+</div>
+<div class="item_summary">
+12月11日，党委书记李三福带队前往醴陵市沩山镇大林村佛年学校，开展送教及捐资助教对口帮扶活动，为偏僻村小师生送温暖送爱心。副校长卢文涛，学校党委办公室、宣传统战部、工会等部门有关负责人及教师代表陪同参加。捐赠仪式上，我校领导为佛年学校30名贫困学生和20名
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-14/content-7627.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2020-12-14/content-7627.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-11/content-7623.html" target="_blank" class="item_title">戚人杰带队赴兄弟院校开展学习调研</a>  (2020-12-11)
+</div>
+<div class="item_summary">
+为进一步促进学校教学管理工作，学习兄弟院校先进经验，12月8日，校长戚人杰，副校长黎晓明、副校长程志群带领学生处、创业就业学院、保卫处等部门负责同志，赴湖南安全技术职业学院、湖南大众传媒职业技术学院进行学习调研。上午，戚人杰一行来到湖南安全技术职业学院
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-11/content-7623.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2020-12-11/content-7623.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-10/content-7620.html" target="_blank" class="item_title">戚人杰带队开展校园安全大检查</a>  (2020-12-10)
+</div>
+<div class="item_summary">
+为强化校园安全责任与意识，维护学校安全稳定工作，12月9日上午，校长戚人杰带队前往暮云、雨花两校区开展校园安全大检查，新闻中心、后勤处、保卫处、学生处等相关职能部门主要负责人陪同参加。戚人杰一行先后前往两校区食堂、学生宿舍、校内练车场、家属区等地就学校
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-10/content-7620.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2020-12-10/content-7620.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-07/content-7615.html" target="_blank" class="item_title">省普通高校2021年书法艺术和书法教育类专业统考在我校举行</a>  (2020-12-07)
+</div>
+<div class="item_summary">
+12月6日，湖南省2021年普通高校招生书法艺术和书法教育类专业统考在我校举行。考试期间，省教育考试院党委副书记、纪委书记曹文才，普招处副处长曹红峰等一行来我校考点现场巡视督查了考试工作。学校党委书记李三福，副校长程志群、谭见君，招生处处长黄士军陪同巡视。
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-07/content-7615.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2020-12-07/content-7615.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+<li class="search_result">
+<div class="title">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-03/content-7606.html" target="_blank" class="item_title">戚人杰参加“制止餐饮浪费 培养节约习惯”签名活动</a>  (2020-12-03)
+</div>
+<div class="item_summary">
+“勤俭节约是中华民族传统美德，全校师生要懂得节约是从一粒米一滴水一度电做起的道理，摒弃浪费陋习，自觉主动弘扬节约传统，践行‘光盘行动’。”11月26日，校长戚人杰在参加雨花校区由后勤处、校团委举行的“制止餐饮浪费，培养节约习惯”签名墙活动时强调。戚人杰在
+</div>
+<div class="suctime">
+<a href="http://www.hnkjxy.net.cn/html/34/2020-12-03/content-7606.html" target="_blank">http://www.hnkjxy.net.cn/html/34/2020-12-03/content-7606.html</a> <span class="label_category">【<a href="http://www.hnkjxy.net.cn/html/34/" target="_blank">科院要闻</a>】</span>
+</div>
+</li>
+</ul>
+<div style="text-align:center;margin-top:50px;" class="pages">
+370条 
+1/37页
+<span class="s1 s3">首页</span>
+<span class="s1 s3">&lt;&lt;</span>
+<span class="s1 s3">上一页</span>
+ <a href="###" class="s2">1</a>  <a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=2">2</a>  <a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=3">3</a>  <a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=4">4</a>  <a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=5">5</a>  <a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=6">6</a>  <a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=7">7</a>  <a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=8">8</a>  <a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=9">9</a>  <a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=10">10</a> 
+<a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=2">下一页</a>
+<a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=11">&gt;&gt;</a>
+<a href="http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=37">末页</a>
+<script type="text/javascript">var __page2273 = {url:'http://www.hnkjxy.net.cn/index.php/cms/item-search?word=%E6%A0%A1%E9%95%BF&page=?page?',pages:37};</script><input type="text" value="1" id="p__page2273" size="4" onkeyup="var p=this.value.replace(/[^0-9]/g,'');if(p!=''){p=Math.max(p,1);p=Math.min(p,__page2273.pages);}this.value=p;" onkeydown="if(event.keyCode==13){var p=this.value;p=Math.min(p,__page2273.pages);p=Math.max(1,p);if(p == 1)return;if(p==1){__page2273.url=__page2273.url.replace(/#([^#]+)#/, '');}else{__page2273.url=__page2273.url.replace(/#([^#]+)#/, '$1');}if(pos=__page2273.url.indexOf('javascript:')!=-1){eval(__page2273.url.substr(pos).replace('?page?',p));}else{window.location.href=__page2273.url.replace('?page?',p);}return false;}" />
+</div>
+<script type="text/javascript">
+
+$(function(){
+
+$('#search_top span').each(function (i){ $(this).click( function(){ $('#search_top span').removeClass();$(this).addClass('over');})});
+
+var keywords = '校长'.replace(/[\+\-\*\|\!]/g, '').split(/\s+/);
+
+
+
+$('.search_result').each(function(){
+
+for(var i = 0; i < keywords.length; i++){
+
+var html = $(this).find('.item_title').get(0).innerHTML;
+
+$(this).find('.item_title').get(0).innerHTML = html.replace(keywords[i], '<font color="red">'+ keywords[i] +'</font>', 'ig');
+
+
+
+var html = $(this).find('.item_summary').get(0).innerHTML;
+
+$(this).find('.item_summary').get(0).innerHTML = html.replace(keywords[i], '<font color="red">'+ keywords[i] +'</font>', 'ig');
+
+}
+
+});
+
+});
+</script>
+</div>
+</div>
+</div>
+</div></div>
+<div class="container">
+<div class="links mtop">
+<div class="hd">
+<div class="tit">常用链接</div>
+</div>
+<div class="bd">
+<ul>
+<li>
+<select onchange="window.open(this.options[this.options.selectedIndex].value);">
+<option value="党务部门" selected="selected">----党务部门----</option>
+<option value="http://jjjcs.hnkjxy.net.cn/">纪委</option>
+<option value="http://dzb.hnkjxy.net.cn">党委办公室</option>
+<option value="http://zzrsc.hnkjxy.net.cn">组织部</option>
+<option value="http://xctzb.hnkjxy.net.cn/">宣传统战部</option>
+<option value="http://edu.hnkjxy.net.cn">教师工作部</option>
+<option value="http://xsgzc.hnkjxy.net.cn/">学生工作部</option>
+<option value="http://wzbwc.hnkjxy.net.cn">武装部</option>
+<option value="# ">党校</option>
+</select>
+</li>
+<li>
+<select onchange="window.open(this.options[this.options.selectedIndex].value);">
+<option value="行政部门" selected="selected">----行政部门----</option>
+<option value="http://dzb.hnkjxy.net.cn">行政办公室</option>
+<option value="http://zzrsc.hnkjxy.net.cn" >人事处</option>
+<option value="http://xctzb.hnkjxy.net.cn" >新闻中心</option>
+<option value="http://edu.hnkjxy.net.cn" > 教务处</option>
+<option value="http://xsgzc.hnkjxy.net.cn" >学生处</option>
+<option value="http://wzbwc.hnkjxy.net.cn" > 保卫处</option>
+<option value="http://jjjcs.hnkjxy.net.cn" >监察处</option>
+<option value="http://sjc.hnkjxy.net.cn ">审计处</option>
+<option value="http://cxy.hnkjxy.net.cn/" >科研规划处</option>
+<option value="http://xqhzbgs.hnkjxy.net.cn">对外合作与国际交流处</option>
+<option value="http://zsb.hnkjxy.net.cn">招生处</option>
+<option value="http://cwc.hnkjxy.net.cn">财务处</option>
+<option value="#"> 国有资产处</option>
+<option value="http://xyjsb.hnkjxy.com/">基建处</option>
+<option value="http://hqc.hnkjxy.net.cn">后勤处</option>
+<option value="http://ltxgzc.hnkjxy.net.cn">退休人员服务处</option>
+</select>
+</li>
+<li>
+<select onchange="window.open(this.options[this.options.selectedIndex].value);">
+<option value="教学教辅部门" selected="selected">----教学教辅部门----</option>
+<option value="http://soft.hnkjxy.net.cn" target="_blank" >软件学院</option>
+<option value="http://rgznxy.hnkjxy.net.cn" target="_blank">人工智能学院</option>
+<option value="http://art.hnkjxy.net.cn" target="_blank" >艺术设计学院（湘瓷学院）</option>
+<option value="http://jdgcxy.hnkjxy.net.cn" target="_blank" >智能装备技术学院</option>
+<option value="http://sxy.hnkjxy.net.cn" target="_blank" >商学院</option>
+<option value="http://yxy.hnkjxy.net.cn" target="_blank" >药学院</option>
+<option value="http://vienna.hnkjxy.net.cn" target="_blank" >人文与音乐学院</option>
+<option value="http://jxjyxy.hnkjxy.net.cn" target="_blank" >继续教育学院（乡村振兴学院）</option>
+<option value="http://sxzzkjxb.hnkjxy.net.cn" target="_blank">马克思主义学院 </option>
+<option value="http://dds.hnkjxy.net.cn" target="_blank" >质量诊改与教育督导室</option>
+<option value="http://xxjszx.hnkjxy.net.cn" target="_blank" >网络安全与信息技术中心</option>
+<option value="http://jyzdc.hnkjxy.com/" target="_blank" >创新创业就业学院</option>
+<option value="http://tsg.hnkjxy.net.cn/" target="_blank" >图书馆（档案馆）</option>
+</select>
+</li>
+<li>
+<select onchange="window.open(this.options[this.options.selectedIndex].value);">
+<option value="友情链接" selected="selected">----友情链接----</option>
+<option value="http://www.moe.gov.cn/">中华人民共和国教育部</option>
+<option value="http://www.hunan.gov.cn/">湖南省人民政府  </option>
+<option value="http://jyt.hunan.gov.cn/">湖南省教育厅</option>
+<option value="http://www.hnedu.cn/">湖南教育网</option>
+<option value="http://www.zhzjs.org.cn/">中华职业教育社</option>
+<option value="http://hnrb.voc.com.cn/">湖南日报</option>		   
+</select>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="footinner">
+<div class="footlogo">
+<img src="http://www.hnkjxy.net.cn/skin/hnkj/core/header/flogo.png">
+</div>
+<div class="copyright">
+<p><p>版权所有©湖南科技职业学院 湘教QS3-200505-000080 <br>
+<a href="https://beian.miit.gov.cn/#/Integrated/index" style="color:#fff;">湘ICP备11003075号-1</a><br>
+电话：0731-82861777 0731-82861000 0731-85677267<br>
+邮箱：hnkjzyzy888@126.com<br>
+地址：湖南省长沙市雨花区井湾路784号（410004)<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260885656'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1260885656%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><p></p>
+</div>
+<div class="footcode">
+<ul>
+<li>
+<div class="pic"><a href="#" target="_blank" title="" style="text-decoration:none;"><img width="87" height="87" border="none" alt="" src="http://www.hnkjxy.net.cn/attachment/core/label/2019_03/21_14/bbcba24b5151a23b.png" /></a></div>
+<div class="text">官方微信</div>
+</li>
+<li>
+<div class="pic"><a href="#" target="_blank" title="" style="text-decoration:none;"><img width="87" height="87" border="none" alt="" src="http://www.hnkjxy.net.cn/attachment/core/label/2019_03/21_14/bbcba24b5151a23b.png" /></a></div>
+<div class="text">官方微博</div>
+</li>
+<li>
+<div style="text-align:center;"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/19/000/0000/60795736/CA190000000607957360001.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+</li>
+</ul>
+</div>
+<script type="text/javascript" src="http://www.hnkjxy.net.cn/api/crontab.php"></script> 
+</div>
+</div>
+
+</body>
+</html/>

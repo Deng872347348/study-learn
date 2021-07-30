@@ -1,0 +1,21 @@
+{'name': '长沙院子 揽山院 ', 'dist': '[长沙县]', 'addr': '', 'price': '6580', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[雨花]', 'addr': '', 'price': '12000', 'label': None, 'room': '2居', 'area': ''}
+{'name': None, 'dist': '[岳麓]', 'addr': '', 'price': '价格待定', 'label': None, 'room': '4居', 'area': ''}
+{'name': None, 'dist': '[望城]', 'addr': '', 'price': '6800', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[雨花]', 'addr': '', 'price': '9600', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': None, 'addr': None, 'price': None, 'label': None, 'room': None, 'area': None}
+{'name': None, 'dist': '[长沙县]', 'addr': '', 'price': '9500', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[岳麓]', 'addr': '', 'price': '12800', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[望城]', 'addr': '', 'price': '6700', 'label': None, 'room': '2居', 'area': ''}
+{'name': None, 'dist': '[雨花]', 'addr': '', 'price': '价格待定', 'label': None, 'room': '1居', 'area': ''}
+{'name': None, 'dist': '[开福]', 'addr': '', 'price': '9800', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[雨花]', 'addr': '', 'price': '9500', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[岳麓]', 'addr': '', 'price': '11000', 'label': None, 'room': '1居', 'area': ''}
+{'name': None, 'dist': '[岳麓]', 'addr': '', 'price': '11000', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[望城]', 'addr': '', 'price': '9980', 'label': None, 'room': '2居', 'area': ''}
+{'name': None, 'dist': '[岳麓]', 'addr': '', 'price': '12000', 'label': None, 'room': '1居', 'area': ''}
+{'name': None, 'dist': '[望城]', 'addr': '', 'price': '6800', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[望城]', 'addr': '', 'price': '6300', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[雨花]', 'addr': '', 'price': '9500', 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': '[天心]', 'addr': '', 'price': None, 'label': None, 'room': '3居', 'area': ''}
+{'name': None, 'dist': None, 'addr': '岳阳市芙蓉北路6107号燎原水库旁', 'price': '6300', 'label': None, 'room': '2居', 'area': ''}
